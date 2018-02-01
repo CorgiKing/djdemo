@@ -1,0 +1,13 @@
+# 创建项目
+jdango-admin.py startproject djdemo
+
+# 创建app
+jdango-admin.py startapp TestModel
+
+# 创建表结构
+manage.py migrate
+
+	# 让 Django 知道我们在我们的模型有一些变更
+	# manage.py makemigrations TestModel  
+	# 创建表结构
+	# manage.py migrate TestModel   
