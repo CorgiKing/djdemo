@@ -1,14 +1,9 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
-import sys
 from django.http import HttpResponse
 from django.shortcuts import render
 from django.shortcuts import render_to_response
-
-reload(sys)
-sys.setdefaultencoding('utf-8')
-
 
 def default(req):
 	return HttpResponse("欢迎来到 程序猿世界 ！！！")
