@@ -6,7 +6,7 @@ from django.shortcuts import render
 from django.shortcuts import render_to_response
 
 def default(req):
-	return HttpResponse("欢迎来到 程序猿世界 ！！！")
+	return render(req, 'default.html')
 	
 def hello(req):
 	context = {}
